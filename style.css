@@ -61,6 +61,7 @@ header{
 .hero {
     margin: 0 150px;
     padding-top: 100px;
+    z-index: 1;
 }
 
 .main-header {
@@ -101,6 +102,8 @@ header{
     justify-content: center;
     box-shadow: 0 0px 1px #f2f2f2;
     opacity: .5;
+    z-index: -1;
+    overflow: hidden;
     
 }
 .circle {
